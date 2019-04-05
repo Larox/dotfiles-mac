@@ -72,7 +72,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -102,11 +102,17 @@ alias gpnv="git push --no-verify"
 alias gcnv="git commit --no-verify"
 alias olocalhost="open -a 'Google Chrome' 'http://localhost:8000/'"
 alias github="open -a 'Google Chrome' 'https://github.com/Larox'"
+alias videorepo="open -a 'Google Chrome' 'https://github.com/ProjectAussie/video-generation'"
 alias openEmbark="cd /Users/Sebastianarias/Documents/Embark/projectaussie/projectaussie.com"
 alias home="cd ~"
+alias pythonblog="/Users/Sebastianarias/moviepy_python_blog/tutorials"
 alias python="python3.6"
 alias runmoviepy='docker run -it -v "$PWD:/code" -w "/code" moviepy python '
 alias ebaws="AWS_EB_PROFILE=embark eb"
+alias pa="spotify pause"
+alias pl="spotify play"
+alias nx="spotify next"
+alias pv="spotify prev"
 
 #export EDITOR="/usr/bin/nano"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

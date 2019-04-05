@@ -21,13 +21,14 @@ syntax on
 "================== Color Theme
 "---------- Color Reference: https://github.com/nightsense/stellarized
 "---------- More Colors: vimcolors.com
-if strftime('%H') >= 7 && strftime('%H') < 19
-  set background=light
-  let g:airline_theme= { 'colorscheme': 'stellarized_light' }
-else
-  set background=dark
-  let g:lightline = { 'colorscheme': 'stellarized_dark' }
-endif
+"if strftime('%H') >= 7 && strftime('%H') < 19
+"  set background=light
+"  let g:airline_theme= { 'colorscheme': 'stellarized_light' }
+"else
+"  set background=dark
+"  let g:lightline = { 'colorscheme': 'stellarized_dark' }
+"endif
+set background=dark
 colorscheme stellarized
 
   let g:airline_theme='stellarized_light'
