@@ -60,6 +60,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+	vi-mode
   git
   nvm
   ssh-agent
@@ -114,7 +115,7 @@ alias pl="spotify play"
 alias nx="spotify next"
 alias pv="spotify prev"
 
-#export EDITOR="/usr/bin/nano"
+export EDITOR="nvim"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # added by travis gem
