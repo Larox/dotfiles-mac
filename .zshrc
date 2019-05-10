@@ -120,3 +120,8 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # added by travis gem
 [ -f /Users/Sebastianarias/.travis/travis.sh ] && source /Users/Sebastianarias/.travis/travis.sh
+
+
+# add notification when a process has finished
+source ~/.iterm2_shell_integration.zsh
+
