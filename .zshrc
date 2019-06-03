@@ -65,6 +65,8 @@ plugins=(
   nvm
   ssh-agent
 )
+# To add ssh-key manually use
+# ssh-add -k <path-to-key>
 
 source $ZSH/oh-my-zsh.sh
 
