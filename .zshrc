@@ -76,6 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -109,7 +110,6 @@ alias videorepo="open -a 'Google Chrome' 'https://github.com/ProjectAussie/video
 alias openEmbark="cd /Users/Sebastianarias/Documents/Embark/projectaussie/projectaussie.com"
 alias home="cd ~"
 alias pythonblog="/Users/Sebastianarias/moviepy_python_blog/tutorials"
-alias python="python3.6"
 alias runmoviepy='docker run -it -v "$PWD:/code" -w "/code" moviepy python '
 alias ebaws="AWS_EB_PROFILE=embark eb"
 alias pa="spotify pause"
@@ -126,4 +126,8 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # add notification when a process has finished
 source ~/.iterm2_shell_integration.zsh
+
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
 
