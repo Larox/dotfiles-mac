@@ -1,0 +1,12 @@
+File Navigation Cheat
+
+$ file <file.name>                     -> type of file we are dealing with
+$ pwd                                  -> Print working directory
+$ cd [absolute or relative pad]        -> Change directory, by default takes to ~
+~                                      -> Absolute pad from root
+$ ls                                   -> List all the files
+                                          -a -> list all
+                                          man ls for more information
+dot folder (.)                         -> refers to current folder
+double dot folder (..)                 -> refers to the parent folder (above current)
+
