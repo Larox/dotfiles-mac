@@ -127,7 +127,11 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # add notification when a process has finished
 source ~/.iterm2_shell_integration.zsh
 
+# Pyenv path configuration
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 
+# Cheat path configuration
+export CHEAT_PATH="$CHEAT_PATH:$HOME/self-cheat"
+# export CHEAT_USER_DIR='~/self-cheat'

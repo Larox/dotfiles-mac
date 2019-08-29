@@ -1,0 +1,14 @@
+📓 Tasks, boards & notes for the command-line habitat
+
+Overview:
+
+$ tb --help                          -> Extra information
+$ tb                                 -> Display board view
+$ tb -t                              -> Create Task
+$ tb -c <numbers>                    -> Check Task <numbers>
+$ tb --clear                         -> Clear all checked items
+$ tb -e <number>                     -> Edit task number
+$ tb -p @<task number> <priority>    -> Priority update 1 normal, 2 medium, 3 high
+$ tb -n                              -> Add note to the board
+$ tb -d <task/note number>           -> Delete task or note
+
