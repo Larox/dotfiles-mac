@@ -135,3 +135,6 @@ eval "$(pyenv init -)"
 # Cheat path configuration
 export CHEAT_PATH="$CHEAT_PATH:$HOME/self-cheat"
 # export CHEAT_USER_DIR='~/self-cheat'
+
+# Export Open SSL for mysql client installation
+export PATH="/usr/local/opt/openssl/bin:$PATH"
